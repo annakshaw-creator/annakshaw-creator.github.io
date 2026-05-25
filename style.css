@@ -617,6 +617,16 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .about-exp-block {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-tools {
+    flex-direction: column;
+    gap: 24px;
+  }
+
   .site-footer .container {
     flex-direction: column;
     gap: 16px;
