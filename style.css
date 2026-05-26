@@ -544,6 +544,27 @@ img {
   margin: 72px 0 48px;
 }
 
+.about-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+
+.about-section-head .section-label {
+  margin-bottom: 0;
+}
+
+.about-linkedin {
+  font-size: 13px;
+  color: var(--muted);
+  transition: color 0.15s;
+}
+
+.about-linkedin:hover {
+  color: var(--text);
+}
+
 .about-divider-full {
   margin-left: 0;
   margin-right: 0;
